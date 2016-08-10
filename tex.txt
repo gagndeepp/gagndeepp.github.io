@@ -1,19 +1,35 @@
 #include<stdio.h>
+
 int main()
+
 {
-	int n,original,rem,sum=0;
+	
+int n,original,rem,sum=0;
+
 	printf("Enter The Number");
-	scanf("%d",&n);
-	n=original;
-	while(n!=0)
-	{
+	
+scanf("%d",&n);
+	
+n=original;
+	
+while(n!=0)
+	
+{
 	rem=n%10;
+
 	sum=sum+(rem*rem*rem);
+
 	n=n/10;
 	}
-	if (sum==original)
-	printf("The Number is Armstrong");
+	
+if (sum==original)
+
+	printf("Armstrong");
+
 	else
-	printf("The Number is not armstrong");
+
+	printf("NO");
+
 	return 0;
+
 }
