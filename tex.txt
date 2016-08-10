@@ -1,9 +1,19 @@
 #include<stdio.h>
-
-void main()
-
+int main()
 {
-
- printf("Hello ubuntu");
-
+	int n,original,rem,sum=0;
+	printf("Enter The Number");
+	scanf("%d",&n);
+	n=original;
+	while(n!=0)
+	{
+	rem=n%10;
+	sum=sum+(rem*rem*rem);
+	n=n/10;
+	}
+	if (sum==original)
+	printf("The Number is Armstrong");
+	else
+	printf("The Number is not armstrong");
+	return 0;
 }
