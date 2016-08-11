@@ -24,11 +24,11 @@ while(n!=0)
 	
 if (sum==original)
 
-	printf("Armstrong");
+	printf("the number you;ve enteres is armstrong number");
 
 	else
 
-	printf("NO");
+	printf("it ain't no armstrong number");
 
 	return 0;
 
